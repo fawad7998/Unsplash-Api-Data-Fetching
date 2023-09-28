@@ -3,13 +3,13 @@ import React, { useEffect, useState } from 'react';
 function Unsplash() {
     const [theme, setTheme] = useState("lightTheme");
     const modeChage = () => {
-        // theme === "darkTheme" ? setTheme("lightTheme") : setTheme('darkTheme');
-        if (theme === "darkTheme") {
-            setTheme("lightTheme")
-        }
-        else {
-            setTheme('darkTheme')
-        }
+        theme === "darkTheme" ? setTheme("lightTheme") : setTheme('darkTheme');
+        // if (theme === "darkTheme") {
+        //     setTheme("lightTheme")
+        // }
+        // else {
+        //     setTheme('darkTheme')
+        // }
     }
 
 
